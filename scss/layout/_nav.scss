@@ -1,0 +1,31 @@
+$couleur-background: #F8F9FA;
+
+
+.nav__log-sign {
+    background-color: red;
+    text-decoration: none;
+
+
+    &__logo {
+        color: black;
+        margin: 8px;
+        position: relative;
+        top: 13px;
+
+    }
+    &__sign {
+        position: absolute;
+        color: white;
+        border: solid blue;
+        right: 0;
+        margin: 8px;
+        background-color: #0D6EFD;
+        border-radius: 10px;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15px;
+        width: 76px;
+        height: 27px;
+        text-align: center;
+    }
+}
