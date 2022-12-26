@@ -2,24 +2,29 @@ body {
   margin: 0;
   padding: 0;
   position: relative;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav__log-sign {
-  background-color: red;
-  text-decoration: none;
+  background-color: white;
+  height: 44px;
 }
 .nav__log-sign__logo {
   color: black;
-  margin: 8px;
-  position: relative;
-  top: 13px;
+  margin: 24px;
+  position: absolute;
+  top: -11px;
+  font-size: 0.938em;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
 }
 .nav__log-sign__sign {
   position: absolute;
   color: white;
-  border: solid blue;
+  border: solid #0D6EFD;
   right: 0;
-  margin: 8px;
+  margin: 5px;
   background-color: #0D6EFD;
   border-radius: 10px;
   font-size: 13px;
@@ -28,10 +33,44 @@ body {
   width: 76px;
   height: 27px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
 }
 
-h1 {
-  color: green;
+.header {
+  background-image: url(/image-lac.jpg);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+}
+.header__title {
+  margin: 0;
+  padding: 130px 83px 13px 89px;
+  font-size: 1.063em;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.header__div {
+  display: flex;
+  justify-content: center;
+}
+.header__div__input {
+  width: 156px;
+  height: 25px;
+  margin-right: 13px;
+}
+.header__div__button {
+  height: 30px;
+  width: 61px;
+  font-size: 0.938em;
+  color: white;
+  background-color: #0D6EFD;
+  border: 0;
 }
 
 /*# sourceMappingURL=css.map */

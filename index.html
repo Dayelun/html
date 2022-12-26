@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
     <title>Maquette Figma</title>
 </head>
 
@@ -15,59 +16,76 @@
         <a class="nav__log-sign__sign" href="#">Sign Up</a>
     </nav>
 
-    <header>
+    <header class="header">
         <h1 class="header__title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-        <img class="header__img" src="/image-lac.jpg" alt="Photo du lac">
         <form action="#">
-            <input class="header__input" type="text" placeholder="Email address">
-            <button class="header__button" type="submit">Submit</button>
+            <div class="header__div">
+                <input class="header__div__input" type="text" placeholder="Email address">
+                <button class="header__div__button" type="submit">Submit</button>
+            </div>
+
         </form>
-        
     </header>
+
     <main>
-    <div>
-        <article>
-            <h3>Lorem, ipsum.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet qui blanditiis illo? Doloremque quidem
-                mollitia esse, delectus expedita facilis ad quia.</p>
-        </article>
-
-        <article>
-            <h3>Lorem, ipsum.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet qui blanditiis illo? Doloremque quidem
-                mollitia esse, delectus expedita facilis ad quia.</p>
-        </article>
-
-        <article>
-            <h3>Lorem, ipsum.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet qui blanditiis illo? Doloremque quidem
-                mollitia esse, delectus expedita facilis ad quia.</p>
-        </article>
-    </div>
-    <section>
-        <h2>Contact us</h2>
-        <form action="#" method="post"></form>
-        <div>
-          <input type="text" name="firstNameInput" id="firstNameInput" placeholder="Firstname">
-          <input type="text" name="lastNameInput" id="lastNameInput" placeholder="Lastname">
+        <div class="article__un">
+            <article>
+                <i class='bx bxs-ghost'></i>
+                <h3 class="article__un__h3">Lorem, ipsum.</h3>
+                <p class="article__un__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet qui blanditiis
+                    illo? Doloremque quidem
+                    mollitia esse, delectus expedita facilis ad quia.</p>
+            </article>
         </div>
-
-        <div>
-          <input type="email" name="emailInput" id="emailInput" placeholder="Email address">
-          <input type="tel" name="telInput" id="telInput" placeholder="Phone number">
+        <div class="article__deux">
+            <article>
+                <i class='bx bxs-ghost'></i>
+                <h3 class="article__deux__h3">Lorem, ipsum.</h3>
+                <p class="article__deux__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet qui blanditiis
+                    illo? Doloremque quidem
+                    mollitia esse, delectus expedita facilis ad quia.</p>
+            </article>
         </div>
-    
-        <textarea class="message-input" name="messageInput" id="messageInput" cols="30" rows="10" placeholder="Type your message"></textarea>
-        <button type="submit">Submit</button>
-    </section>
+        <div class="article__trois">
+            <article>
+                <i class='bx bxs-ghost'></i>
+                <h3 class="article__trois__h3">Lorem, ipsum.</h3>
+                <p class="article__trois__p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet qui
+                    blanditiis illo? Doloremque quidem
+                    mollitia esse, delectus expedita facilis ad quia.</p>
+            </article>
+        </div>
+        <section class="middle-form">
+            <h3 class="middle__form__h3">Contact us</h3>
+            <form action="#" method="post"></form>
+            <div class="middle__form__name">
+                <input type="text" name="firstNameInput" id="firstNameInput" placeholder="Firstname">
+                <input type="text" name="lastNameInput" id="lastNameInput" placeholder="Lastname">
+            </div>
+
+            <div class="middle__form__mail">
+                <input type="email" name="emailInput" id="emailInput" placeholder="Email address">
+                <input type="tel" name="telInput" id="telInput" placeholder="Phone number">
+            </div>
+            <div class="middle__form__msg">
+                <textarea name="messageInput" id="messageInput" cols="30" rows="10"
+                    placeholder="Type your message"></textarea>
+            </div>
+            <div class="middle__form__button">
+                <button type="submit">Submit</button>
+            </div>
+        </section>
+
     </main>
-    <footer>
-        <ul>
-            <li><a href="#">About</a>-</li>
-            <li><a href="#">Contact</a>-</li>
-            <li><a href="#">Terms of Use</a>-</li>
-            <li><a href="#">Privacy Policy</a>-</li>
-        </ul>
+    <footer class="footer">
+        <div class="div__footer">
+            <ul>
+                <li><a href="#">About</a>-</li>
+                <li><a href="#">Contact</a>-</li>
+                <li><a href="#">Terms of Use</a>-</li>
+                <li><a href="#">Privacy Policy</a>-</li>
+            </ul>
+        </div>
         <p>My Website 2022 - all rights reserved</p>
     </footer>
 </body>

@@ -2,23 +2,25 @@ $couleur-background: #F8F9FA;
 
 
 .nav__log-sign {
-    background-color: red;
-    text-decoration: none;
-
+    background-color:white;
+    height: 44px;
 
     &__logo {
         color: black;
-        margin: 8px;
-        position: relative;
-        top: 13px;
-
+        margin: 24px;
+        position: absolute;
+        top: -11px;
+        font-size: 0.938em;
+        font-weight: 600;
+        font-style: normal;
+        text-decoration: none;
     }
     &__sign {
         position: absolute;
         color: white;
-        border: solid blue;
+        border: solid #0D6EFD;
         right: 0;
-        margin: 8px;
+        margin: 5px;
         background-color: #0D6EFD;
         border-radius: 10px;
         font-size: 13px;
@@ -27,5 +29,9 @@ $couleur-background: #F8F9FA;
         width: 76px;
         height: 27px;
         text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
     }
 }

@@ -1,3 +1,36 @@
-h1 {
-    color: green;
+.header {
+    background-image: url(/image-lac.jpg);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+
+    &__title {
+        margin: 0;
+        padding: 130px 83px 13px 89px;        
+        font-size: 1.063em;
+        color: white;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.header__div {
+    display: flex;
+    justify-content: center;
+
+    &__input {
+        width: 156px;
+        height: 25px;
+        margin-right: 13px;
+    }
+
+    &__button {
+        height: 30px;
+        width: 61px;
+        font-size: 0.938em;
+        color: white;
+        background-color: #0D6EFD;
+        border: 0;
+    }
 }
