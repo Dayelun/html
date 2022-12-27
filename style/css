@@ -73,4 +73,31 @@ body {
   border: 0;
 }
 
+.main__article {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+}
+.main__article__div {
+  min-width: auto;
+  width: 40%;
+}
+.main__article__div__h3 {
+  font-size: 1em;
+}
+.main__article__div__p {
+  font-size: 0.8em;
+}
+.main__article__div .bx {
+  font-size: 1.7em;
+  color: #0D6EFD;
+}
+.main__article__div__3 {
+  margin-top: -20px;
+}
+
 /*# sourceMappingURL=css.map */

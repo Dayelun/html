@@ -1,0 +1,32 @@
+.main__article {
+    display: flex;
+    text-align: center;
+    gap: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+
+    &__div {
+        min-width: auto;
+        width: 40%;
+
+        &__h3 {
+            font-size: 1em;
+        }
+        &__p {
+            font-size: 0.8em;
+
+        }
+        .bx {
+            font-size: 1.7em;
+            color: #0D6EFD;
+        }
+        &__3 {
+            margin-top: -20px;
+        }
+    }
+
+    }
+
+        
