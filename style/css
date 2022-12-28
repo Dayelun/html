@@ -5,6 +5,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+* {
+  margin: 0;
+}
+
 .nav__log-sign {
   background-color: white;
   height: 44px;
@@ -23,7 +27,7 @@ body {
   position: absolute;
   color: white;
   border: solid #0D6EFD;
-  right: 0;
+  right: 10px;
   margin: 5px;
   background-color: #0D6EFD;
   border-radius: 10px;
@@ -81,6 +85,7 @@ body {
   flex-wrap: wrap;
   margin-top: 20px;
   justify-content: center;
+  background-color: #F8F9FA;
 }
 .main__article__div {
   min-width: auto;
@@ -98,6 +103,78 @@ body {
 }
 .main__article__div__3 {
   margin-top: -20px;
+}
+
+hr {
+  width: 300px;
+  margin: auto;
+  border: solid gray 1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.middle__form {
+  display: inline-block;
+  text-align: center;
+  background-color: #F8F9FA;
+  width: 100%;
+}
+.middle__form__h3 {
+  font-size: 0.938em;
+  margin-bottom: 15px;
+}
+.middle__form__name {
+  margin-bottom: 15px;
+}
+.middle__form__name__f, .middle__form__name__l {
+  width: 100px;
+  height: 20px;
+}
+.middle__form__contact {
+  margin-bottom: 15px;
+}
+.middle__form__contact__mail, .middle__form__contact__tel {
+  width: 100px;
+  height: 20px;
+}
+.middle__form__msg {
+  margin-bottom: 15px;
+}
+.middle__form__msg textarea {
+  resize: none;
+}
+.middle__form__button button {
+  padding: 4px 20px 4px 20px;
+  font-size: 0.8em;
+  background-color: #0D6EFD;
+  color: white;
+  border: 0;
+  margin-bottom: 50px;
+}
+
+.footer {
+  background-color: #D9D9D9;
+}
+.footer__ul ul {
+  display: flex;
+  padding: 10px 0 0 0;
+  margin: 0 0 5px 30px;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+.footer a {
+  color: #0D6EFD;
+  text-decoration: none;
+}
+.footer li {
+  color: #0D6EFD;
+  list-style: none;
+}
+.footer p {
+  margin: 0 0 5px 30px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #9b9393;
 }
 
 /*# sourceMappingURL=css.map */

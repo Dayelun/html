@@ -1,0 +1,25 @@
+.footer {
+    background-color: #D9D9D9;
+    
+    &__ul ul {
+        display: flex;
+        padding: 10px 0 0 0;
+        margin: 0 0 5px 30px;
+        font-size: 0.9em;
+        font-weight: bold;
+    }
+    a {
+        color: #0D6EFD;
+        text-decoration: none;
+    }
+    li {
+        color: #0D6EFD;
+        list-style: none;
+    }
+    p {
+        margin: 0 0 5px 30px;
+        font-size: 0.9em;
+        font-weight: bold;
+        color: #9b9393;
+    }
+}

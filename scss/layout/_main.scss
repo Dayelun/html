@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     margin-top: 20px;
     justify-content: center;
+    background-color: #F8F9FA;
 
     &__div {
         min-width: auto;
@@ -27,6 +28,55 @@
         }
     }
 
+    }
+
+    hr {
+        width: 300px;
+        margin: auto;
+        border: solid gray 1px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .middle__form {
+        display: inline-block;
+        text-align: center;
+        background-color: #F8F9FA;
+        width: 100%;
+
+        &__h3 {
+            font-size: 0.938em;
+            margin-bottom: 15px;
+        }
+        &__name {
+            margin-bottom: 15px;
+            &__f,&__l {
+                width: 100px;
+                height: 20px;
+            }
+        }
+        &__contact {
+            margin-bottom: 15px;
+            &__mail,&__tel {
+                width: 100px;
+                height: 20px;
+            }
+        }
+        &__msg {
+            margin-bottom: 15px;
+
+            textarea {
+                resize: none;
+            }
+        }
+        &__button button {
+            padding: 4px 20px 4px 20px;
+            font-size: 0.8em;
+            background-color: #0D6EFD;
+            color: white;
+            border: 0;
+            margin-bottom: 50px;
+        }
     }
 
         
