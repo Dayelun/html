@@ -51,6 +51,11 @@ body {
     left: 20px;
   }
 }
+@media screen and (min-width: 1279px) {
+  .nav__log-sign__sign {
+    font-size: 0.9em;
+  }
+}
 .header {
   background-image: url(/image-lac.jpg);
   height: 50vh;
@@ -121,6 +126,28 @@ body {
     border: none;
   }
 }
+@media screen and (min-width: 1279px) {
+  .header {
+    height: 35vh;
+  }
+  .header__title {
+    position: absolute;
+    top: 120px;
+    left: 25%;
+    padding: 0;
+  }
+  .header__div {
+    position: absolute;
+    right: 40%;
+    top: 70px;
+  }
+  .header__div__button {
+    width: 100px;
+    padding: 5px 15px 5px 15px;
+    right: 0px;
+    top: 141px;
+  }
+}
 .main__article {
   display: flex;
   text-align: center;
@@ -144,9 +171,6 @@ body {
 .main__article__div .bx {
   font-size: 1.7em;
   color: #0D6EFD;
-}
-.main__article__div__3 {
-  margin-top: -20px;
 }
 
 hr {
@@ -194,6 +218,44 @@ hr {
   color: white;
   border: 0;
   margin-bottom: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .main__article {
+    flex-wrap: nowrap;
+  }
+  .main__article__div {
+    width: 25%;
+  }
+  hr {
+    width: 500px;
+  }
+}
+.middle__form__name__f, .middle__form__name__l {
+  width: 200px;
+  height: 30px;
+}
+.middle__form__contact__mail, .middle__form__contact__tel {
+  width: 200px;
+  height: 30px;
+}
+.middle__form__msg textarea {
+  width: 415px;
+}
+.middle__form__button button {
+  padding: 10px 30px 10px 30px;
+  font-size: 1em;
+}
+
+.bx {
+  margin-bottom: 20px;
+}
+
+.main__article__div__h3 {
+  margin-bottom: 20px;
+}
+.main__article__div__p {
+  margin-bottom: 20px;
 }
 
 .footer {

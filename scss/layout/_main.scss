@@ -23,9 +23,6 @@
             font-size: 1.7em;
             color: #0D6EFD;
         }
-        &__3 {
-            margin-top: -20px;
-        }
     }
 
     }
@@ -78,5 +75,56 @@
             margin-bottom: 50px;
         }
     }
+
+@media screen and (min-width:768px) {
+    .main__article {
+        flex-wrap: nowrap;
+        
+        &__div {
+            width: 25%;
+        }
+    }
+
+    hr {
+        width: 500px;
+    }
+    }
+    .middle__form {
+
+        &__name__f,&__name__l { 
+                width: 200px;
+                height: 30px;
+        }
+
+        &__contact__mail,&__contact__tel {
+                width: 200px;
+                height: 30px;
+        }
+        
+        &__msg {
+            textarea {
+                width: 415px;
+            }
+        }
+        &__button button {
+            padding: 10px 30px 10px 30px;
+            font-size: 1em;
+        }
+    }
+
+    .bx {
+        margin-bottom: 20px;
+    }
+    .main__article {
+        &__div {
+            &__h3 {
+                margin-bottom: 20px;
+            }
+            &__p {
+                margin-bottom: 20px;
+            }
+        }
+}
+
 
         

@@ -76,3 +76,28 @@
         }
     }
 }
+
+@media screen and (min-width:1279px) {
+    .header {
+        height: 35vh;
+
+        &__title {
+            position: absolute;
+            top: 120px;
+            left: 25%;
+            padding: 0;
+        }
+        &__div {
+            position: absolute;
+            right: 40%;
+            top: 70px;
+
+            &__button {
+                width: 100px;
+                padding: 5px 15px 5px 15px;
+                right: 0px;
+                top: 141px;
+            }
+        }
+    }
+}
